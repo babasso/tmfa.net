@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="UTF-8" />
+     <meta name="author" content="Manuele" />
+    <title> CSS : Display</title>
+    <style type="text/css">
+         .bloc  {  border: 1px solid blue; 
+                      display: block;
+                } 
+         .ligne   { border: 2px dashed red;
+                       display: inline; 
+                       }
+    </style>
+ </head>
+<body>
+    <div class="bloc">
+        <p><img src="img/hiver.jpg" width="80" alt="Feuille dans la glace"/>
+      Ceci est un paragraphe normal avec <span class="ligne"> un morceau en ligne </span>. Le reste est bla bla bla bla. </p>
+       </div>
+</body>
+</html>
